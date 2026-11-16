@@ -24,11 +24,11 @@ const TICK: Duration = Duration::from_millis(50);
 const LINKS: [(&str, &str); 4] = [
     (
         "releases",
-        "https://github.com/SpaceSquare640/Minecraft_Auto_Fishing/releases",
+        "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases",
     ),
     (
         "github",
-        "https://github.com/SpaceSquare640/Minecraft_Auto_Fishing",
+        "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing",
     ),
     ("discord", "https://discord.gg/aaUQVJeCgC"),
     (
@@ -203,3 +203,5 @@ fn main() {
         .run(tauri::generate_context!())
         .expect("error while running Minecraft Auto Fishing");
 }
+
+// Updated by: OpenAI-Codex

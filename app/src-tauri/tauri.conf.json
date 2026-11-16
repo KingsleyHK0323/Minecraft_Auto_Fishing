@@ -27,7 +27,7 @@
   "bundle": {
     "active": true,
     "targets": ["nsis", "msi"],
-    "license": "GPL-3.0-only",
+    "license": "PolyForm-Noncommercial-1.0.0",
     "icon": ["icons/32x32.png", "icons/128x128.png", "icons/icon.ico"],
     "windows": {
       "nsis": {

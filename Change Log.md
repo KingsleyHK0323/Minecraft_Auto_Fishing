@@ -4,6 +4,10 @@ All notable changes to the Minecraft Auto Fishing tool are documented here.
 
 ## Unreleased
 
+- Updated release status and clarified that the in-game test result for menu detection is unconfirmed.
+- Updated the app's release update check to use the KingsleyHK0323 repository.
+- Licensed project-owned code and resource packs under PolyForm Noncommercial 1.0.0; third-party components retain their respective licenses. Copyright Kingsley.
+
 ## 1.0.1 — 2026-10-17 (Windows)
 
 - The Bite Caption resource pack now supports Minecraft: Java Edition 1.21 and later, and Bedrock Edition 1.21 and later.
@@ -11,13 +15,13 @@ All notable changes to the Minecraft Auto Fishing tool are documented here.
 
 ## 1.0.0 — 2026-10-11 (Windows)
 
-First release of the Windows app. Download it from [GitHub Releases](https://github.com/SpaceSquare640/Minecraft_Auto_Fishing/releases/latest). macOS and Linux are not supported yet. The installer is not code-signed yet, so Windows SmartScreen or Microsoft Defender may warn you.
+First release of the Windows app. Download it from [GitHub Releases](https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases/latest). macOS and Linux are not supported yet. The installer is not code-signed yet, so Windows SmartScreen or Microsoft Defender may warn you.
 
 - Fishing pauses while a game menu (pause, inventory, chat) is open, so clicks never land in a menu, for example splitting item stacks in the Java inventory (not verified in game yet) — 2026-10-11
 
 ## 0.1.0-alpha.2 — 2026-10-10 (test pre-release, Windows)
 
-Second test build of the Windows app, for testing only. Download it from [GitHub Releases](https://github.com/SpaceSquare640/Minecraft_Auto_Fishing/releases). The installer is not code-signed yet, so Windows SmartScreen or Microsoft Defender may warn you.
+Second test build of the Windows app, for testing only. Download it from [GitHub Releases](https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases). The installer is not code-signed yet, so Windows SmartScreen or Microsoft Defender may warn you.
 
 - Bedrock Edition: the first cast after you return to the game (for example after closing the pause menu with Esc) should no longer be missed (not verified in game yet). Bedrock ignores the first mouse button event after its window gets the focus back, so the app first sends a mouse release that does nothing in the game, and it waits half a second after F8 — 2026-10-10
 - The Windows installer shows the app icon instead of the default installer icon — 2026-10-10
@@ -25,7 +29,7 @@ Second test build of the Windows app, for testing only. Download it from [GitHub
 
 ## 0.1.0-alpha.1 — 2026-10-10 (test pre-release, Windows)
 
-First test build of the Windows app, for testing only. Download it from [GitHub Releases](https://github.com/SpaceSquare640/Minecraft_Auto_Fishing/releases). The installer is not code-signed yet, so Windows SmartScreen may warn you (More info › Run anyway).
+First test build of the Windows app, for testing only. Download it from [GitHub Releases](https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases). The installer is not code-signed yet, so Windows SmartScreen may warn you (More info › Run anyway).
 
 - First Windows app
   - Bite detection: Java Edition reads the bite subtitle in your game language; Bedrock Edition uses the new Bite Caption resource pack.
@@ -40,3 +44,5 @@ First test build of the Windows app, for testing only. Download it from [GitHub 
 ## Earlier
 
 - Licensed under GPL-3.0 (`LICENSE` added) — 2026-10-08
+
+<!-- Updated by: OpenAI-Codex -->

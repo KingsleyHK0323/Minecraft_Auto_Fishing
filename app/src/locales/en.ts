@@ -77,7 +77,7 @@ export const en = {
     noReleases: "No releases yet.",
     limited: "GitHub is busy right now. Try again in an hour.",
     failed: "Could not check for updates.",
-    license: "Licensed under GPL-3.0. Not affiliated with Mojang or Microsoft.",
+    license: "Copyright Kingsley. Licensed under PolyForm Noncommercial 1.0.0. Not affiliated with Mojang or Microsoft.",
     github: "GitHub",
     discord: "Discord",
     website: "Website",

@@ -89,7 +89,7 @@ jobs:
               "The app can install them for you (Setup tab).\r\n\r\n"
               "Bedrock: double-click bedrock/AMF_Bite_Caption.mcpack, activate it in Settings > Global Resources, turn on captions.\r\n"
               "Java (optional): copy java/AMF_Bite_Caption.zip into .minecraft/resourcepacks and select it in Options > Resource Packs.\r\n\r\n"
-              "License: GPL-3.0. Not affiliated with Mojang or Microsoft.\r\n"
+              "Copyright Kingsley. License: PolyForm Noncommercial 1.0.0. Not affiliated with Mojang or Microsoft.\r\n"
           )
           with zipfile.ZipFile(f"dist/{base}_resource-packs.zip", "w", zipfile.ZIP_DEFLATED) as z:
               z.writestr("bedrock/AMF_Bite_Caption.mcpack", bedrock)

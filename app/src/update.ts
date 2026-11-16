@@ -1,5 +1,5 @@
 // Asks GitHub for the latest release and compares it with this version.
-const LATEST = "https://api.github.com/repos/SpaceSquare640/Minecraft_Auto_Fishing/releases/latest";
+const LATEST = "https://api.github.com/repos/KingsleyHK0323/Minecraft_Auto_Fishing/releases/latest";
 
 export type UpdateResult =
   | { kind: "latest" }
@@ -34,3 +34,5 @@ export async function checkForUpdate(current: string): Promise<UpdateResult> {
     return { kind: "failed" };
   }
 }
+
+// Updated by: OpenAI-Codex

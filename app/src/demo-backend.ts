@@ -9,8 +9,8 @@ const RECAST_MS = 600;
 const BITE_MIN_MS = 3000;
 const BITE_MAX_MS = 8000;
 const LINKS: Record<Link, string> = {
-  github: "https://github.com/SpaceSquare640/Minecraft_Auto_Fishing",
-  releases: "https://github.com/SpaceSquare640/Minecraft_Auto_Fishing/releases",
+  github: "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing",
+  releases: "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases",
   discord: "https://discord.gg/aaUQVJeCgC",
   website: "https://spacesquare640.github.io/Minecraft_Auto_Fishing/",
 };
@@ -100,3 +100,5 @@ export function demoBackend(): Backend {
     installPack: async () => "Preview only: nothing is installed.",
   };
 }
+
+// Updated by: OpenAI-Codex

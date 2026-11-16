@@ -1,8 +1,8 @@
 # Overview
 
-Minecraft Auto Fishing is an open-source tool that automates the repetitive part of fishing in Minecraft: watching the bobber, reeling in at the right moment and casting again.
+Minecraft Auto Fishing is a source-available tool that automates the repetitive part of fishing in Minecraft: watching the bobber, reeling in at the right moment and casting again.
 
-> **Status:** Version 1.0.0 for Windows is on [GitHub Releases](https://github.com/SpaceSquare640/Minecraft_Auto_Fishing/releases/latest). macOS and Linux are not supported yet.
+> **Status:** Version 1.0.1 for Windows was released on 2026-10-17; see [GitHub Releases](https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases/latest). macOS and Linux are not supported yet.
 
 ## Supported platforms
 
@@ -20,7 +20,7 @@ Consoles (Xbox, PlayStation, Nintendo Switch) and mobile devices (iOS, Android) 
 3. **Detect a bite** — it reads the game's on-screen subtitles and waits for the bite subtitle.
 4. **Reel in** — it reels in immediately, then casts again and repeats.
 
-Press **F8** again to stop. The tool also pauses when Minecraft is not the active window or a game menu (pause, inventory, chat) is open, and only sends clicks to Minecraft.
+Press **F8** again to stop. The tool is designed to pause when Minecraft is not the active window or a game menu (pause, inventory, chat) is open, and to send clicks only to Minecraft. The in-game test result for menu detection is unconfirmed.
 
 ### Bite detection
 
@@ -53,3 +53,5 @@ Many multiplayer servers do not allow automated or AFK fishing. Check the rules 
 |---|---|
 | `Source_Code` (default) | Source code of the tool, these docs and the tool's change log |
 | `Minecraft_Auto_Fishing_Website_Preview` | The project website (GitHub Pages) |
+
+<!-- Updated by: OpenAI-Codex -->
