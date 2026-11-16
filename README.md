@@ -3,8 +3,7 @@
 An interactive website that introduces the Minecraft Auto Fishing project visually,
 so players can understand how it works without reading long text documentation.
 
-> **Status:** In development. The auto-fishing tool itself is not released yet;
-> the website describes planned behavior only.
+> **Status:** The Windows app has been released. See GitHub Releases for available versions; macOS and Linux are not supported.
 
 ## Branches
 
@@ -170,8 +169,12 @@ UI components adapted from [Uiverse.io](https://uiverse.io) (MIT):
 `elijahgummer/kind-pig-24` (badge), `kamehame-ha/kind-otter-31` (GitHub button),
 `chase2k25/rare-quail-40` (demo mode lever), `Yaya12085/grumpy-fox-39` (feature cards),
 `vinodjangid07/afraid-falcon-17` (back-to-top button).
+See [third-party notices](THIRD-PARTY-NOTICES.txt) for the Uiverse copyright and license notices.
+
 Discord mark from [Simple Icons](https://simpleicons.org) 16.34.0 (CC0).
 
 ## License
 
-GPL-3.0. See `LICENSE`.
+Copyright © 2026 Kingsley. Website code owned by Kingsley is licensed under [PolyForm Noncommercial License 1.0.0](LICENSE). Website text and images owned by Kingsley are licensed under [CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0.txt). Third-party components retain their own licenses. The app preview is built from the app source and follows its applicable license; documentation loaded from the source branch follows the license stated there. Historical releases retain their original license terms.
+
+<!-- Updated by: OpenAI-Codex -->

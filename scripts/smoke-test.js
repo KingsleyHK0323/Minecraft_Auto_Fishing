@@ -19,11 +19,11 @@ const ASSETS = ["sitemap.xml", "assets/img/og-image.png", "assets/img/icon.webp"
 const DISCORD_INVITE = "aaUQVJeCgC";
 const DISCORD_GUILD_ID = "1150040065586770070"; // Player Club; a lapsed code re-claimed by another server must fail
 const EXTERNAL = [
-  "https://github.com/SpaceSquare640/Minecraft_Auto_Fishing",
-  "https://github.com/SpaceSquare640/Minecraft_Auto_Fishing/blob/Source_Code/LICENSE",
-  "https://raw.githubusercontent.com/SpaceSquare640/Minecraft_Auto_Fishing/Source_Code/docs/overview.md",
-  "https://raw.githubusercontent.com/SpaceSquare640/Minecraft_Auto_Fishing/Source_Code/Change%20Log.md",
-  "https://raw.githubusercontent.com/SpaceSquare640/Minecraft_Auto_Fishing/Minecraft_Auto_Fishing_Website_Preview/Change%20Log.md"
+  "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing",
+  "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/blob/Source_Code/LICENSE",
+  "https://raw.githubusercontent.com/KingsleyHK0323/Minecraft_Auto_Fishing/Source_Code/docs/overview.md",
+  "https://raw.githubusercontent.com/KingsleyHK0323/Minecraft_Auto_Fishing/Source_Code/Change%20Log.md",
+  "https://raw.githubusercontent.com/KingsleyHK0323/Minecraft_Auto_Fishing/Minecraft_Auto_Fishing_Website_Preview/Change%20Log.md"
 ];
 
 if (!["deploy", "health"].includes(MODE)) fail(`usage: smoke-test.js deploy|health (got "${MODE}")`);
@@ -145,3 +145,5 @@ async function checkExternal() {
   if (errors.length) { console.error(`✖ ${errors.length} problem(s):\n  - ${errors.join("\n  - ")}`); process.exit(1); }
   console.log(`✔ ${MODE} checks passed`);
 })().catch((e) => fail(e.stack || e.message));
+
+// Updated by: OpenAI-Codex

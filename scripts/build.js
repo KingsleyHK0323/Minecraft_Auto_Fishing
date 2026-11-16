@@ -16,7 +16,7 @@ const vm = require("vm");
 const ROOT = path.resolve(__dirname, "..");
 const OUT = path.join(ROOT, "_site");
 // app-preview/ is the Vite build of the app UI: its file names are already content-hashed.
-const INCLUDE = ["index.html", "docs.html", "changelog.html", "404.html", "sitemap.xml", "LICENSE", "css", "js", "locales", "assets", "app-preview"];
+const INCLUDE = ["index.html", "docs.html", "changelog.html", "404.html", "sitemap.xml", "LICENSE", "LICENSE-CC-BY-NC-SA-4.0.txt", "THIRD-PARTY-NOTICES.txt", "css", "js", "locales", "assets", "app-preview"];
 const PAGES = ["index.html", "docs.html", "changelog.html", "404.html"];
 const HASHED_DIRS = ["css", "js", "locales"];
 
@@ -102,3 +102,4 @@ for (const page of PAGES) {
   fs.writeFileSync(file, html);
 }
 console.log(`✔ built _site (version ${version}, ${Object.keys(hashed).length} files hashed, ${stamped} references rewritten, ${filled} strings prerendered)`);
+// Updated by: OpenAI-Codex

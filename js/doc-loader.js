@@ -7,7 +7,7 @@
 (function () {
   "use strict";
 
-  var REPO = "SpaceSquare640/Minecraft_Auto_Fishing";
+  var REPO = "KingsleyHK0323/Minecraft_Auto_Fishing";
   var RAW = "https://raw.githubusercontent.com/" + REPO + "/";
   var BLOB = "https://github.com/" + REPO + "/blob/";
   var LOCAL_HOSTS = ["localhost", "127.0.0.1", "[::1]"];
@@ -77,3 +77,4 @@
 
   document.querySelectorAll("[data-doc]").forEach(load);
 })();
+// Updated by: OpenAI-Codex

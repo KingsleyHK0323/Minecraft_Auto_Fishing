@@ -7,7 +7,7 @@ window.LOCALES.en = {
     docsTitle: "Docs · Minecraft Auto Fishing",
     changelogTitle: "Changelog · Minecraft Auto Fishing",
     notFoundTitle: "Page not found · Minecraft Auto Fishing",
-    description: "An open-source auto-fishing tool for Minecraft: Java Edition and Bedrock Edition on Windows (macOS and Linux are not supported yet). It runs outside the game and is not a mod."
+    description: "A source-available auto-fishing tool for Minecraft: Java Edition and Bedrock Edition on Windows (macOS and Linux are not supported yet). It runs outside the game and is not a mod."
   },
   nav: {
     label: "Main",
@@ -56,7 +56,7 @@ window.LOCALES.en = {
       reel: { title: "Auto reel-in", text: "Reels in the moment a fish bites." },
       recast: { title: "Auto recast", text: "Casts again after every catch, with no input from you." },
       outside: { title: "Runs outside the game", text: "Not a mod, so no game files are changed. For Java Edition and Bedrock Edition on Windows; macOS and Linux are not supported yet." },
-      open: { title: "Open source", text: "Free to read, change and share under GPL-3.0." }
+      open: { title: "Source available", text: "The app and website source are available under their respective licenses." }
     }
   },
   appPreview: {
@@ -67,7 +67,7 @@ window.LOCALES.en = {
   },
   start: {
     title: "Getting started",
-    text: "Version 1.0.0 for Windows is available on GitHub Releases, and setup steps are in the Docs. macOS and Linux are not supported yet. The installer is not code-signed yet, so Windows may show a warning. Join the community on Discord for updates and questions.",
+    text: "The Windows app is available on GitHub Releases, and setup steps are in the Docs. macOS and Linux are not supported yet. The installer is not code-signed yet, so Windows may show a warning. Join the community on Discord for updates and questions.",
     download: "Download for Windows",
     discord: "Join the community on Discord",
     cta: "Follow on GitHub"
@@ -78,17 +78,17 @@ window.LOCALES.en = {
       mod: { q: "Is it a mod?", a: "No. It runs outside Minecraft and does not change any game files." },
       servers: { q: "Can I use it on multiplayer servers?", a: "Many servers do not allow automated or AFK fishing. Check the rules of the server you play on first." },
       official: { q: "Is it made by Mojang or Microsoft?", a: "No. This is an independent fan project and is not affiliated with Mojang or Microsoft." },
-      release: { q: "Is it released?", a: "Yes. Version 1.0.0 for Windows is on GitHub Releases. macOS and Linux are not supported yet; progress is posted on the Changelog page." },
+      release: { q: "Is it released?", a: "Yes. The Windows app is available on GitHub Releases. macOS and Linux are not supported yet; progress is posted on the Changelog page." },
       versions: { q: "Which Minecraft editions and platforms are supported?", a: "Minecraft: Java Edition and Bedrock Edition on Windows 10 / 11. macOS and Linux are not supported yet. Consoles and mobile devices are not supported. Tested with Java Edition 26.3 and Bedrock Edition (October 2026)." },
-      free: { q: "Is it free?", a: "Yes. It is open source under the GPL-3.0 license." }
+      free: { q: "Is it free?", a: "Yes. See the license information for the terms applying to the app and website." }
     }
   },
   footer: {
     name: "Minecraft Auto Fishing",
     disclaimer: "Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.",
     navLabel: "Footer",
-    license: "License: GPL-3.0",
-    copyright: "© 2026 SpaceSquare640 · Licensed under GPL-3.0",
+    license: "Website licenses",
+    copyright: "© 2026 Kingsley · Website code: PolyForm Noncommercial 1.0.0 · Content: CC BY-NC-SA 4.0",
     credits: "UI components adapted from",
     backToTop: "Back to top"
   },
@@ -97,10 +97,10 @@ window.LOCALES.en = {
     newTab: "(opens in a new tab)"
   },
   hero: {
-    status: "1.0.0 for Windows",
+    status: "Available for Windows",
     title: "Minecraft Auto Fishing",
     tagline: "Stop staring at the bobber.",
-    description: "An open-source tool that watches for a bite, reels in and recasts for you in Minecraft: Java Edition and Bedrock Edition on Windows. It runs outside the game and is not a mod.",
+    description: "A source-available tool that watches for a bite, reels in and recasts for you in Minecraft: Java Edition and Bedrock Edition on Windows. It runs outside the game and is not a mod.",
     ctaDemo: "Try the demo",
     ctaGithub: "View on GitHub",
     ctaDiscord: "Join Discord",
@@ -164,3 +164,5 @@ window.LOCALES.en = {
     }
   }
 };
+
+// Updated by: OpenAI-Codex

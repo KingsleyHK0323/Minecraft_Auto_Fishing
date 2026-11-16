@@ -140,3 +140,38 @@ All notable changes to the website branch are recorded here.
 ## 2026-10-20 (Source PR checks)
 
 - Added a pull request workflow on `Source_Code` to run Rust formatting, Clippy, tests and the app UI build on GitHub-hosted Windows runners — CI/CD
+- Added a manual trigger that validates an open PR targets `Source_Code` before checking its merge ref; this supports testing existing PRs without changing their branches — CI/CD
+
+## Unreleased (license)
+
+- Updated the licensing notices for Kingsley-owned website code and content, preserving third-party and historical license notices.
+
+<!-- Updated by: OpenAI-Codex -->
+
+## Unreleased (repository links)
+
+- Updated repository and raw document references to KingsleyHK0323 while retaining the existing GitHub Pages address.
+
+<!-- Updated by: OpenAI-Codex -->
+
+## Unreleased (content license text)
+
+- Included the official CC BY-NC-SA 4.0 legal text in the website distribution.
+
+<!-- Updated by: OpenAI-Codex -->
+
+## Unreleased (release information)
+
+- Corrected outdated release status in the README and removed hard-coded release version references from the website.
+
+<!-- Updated by: OpenAI-Codex_Website -->
+
+## Unreleased (third-party notices)
+
+- Added copyright and MIT license notices for adapted Uiverse components to the website distribution.
+
+<!-- Updated by: OpenAI-Codex_Website -->
+
+- Updated the app preview script reference to a new content-derived filename to prevent stale browser caches.
+
+<!-- Updated by: OpenAI-Codex_Website -->

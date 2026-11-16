@@ -15,7 +15,7 @@ const ROOT = path.resolve(__dirname, "..");
 const PAGES = ["index.html", "docs.html", "changelog.html", "404.html"];
 const BASE = "/Minecraft_Auto_Fishing/";
 // must match INCLUDE in scripts/build.js
-const PUBLISHED = ["index.html", "docs.html", "changelog.html", "404.html", "sitemap.xml", "LICENSE", "css", "js", "locales", "assets", "app-preview"];   // absolute paths (used by 404.html) map to the repo root
+const PUBLISHED = ["index.html", "docs.html", "changelog.html", "404.html", "sitemap.xml", "LICENSE", "LICENSE-CC-BY-NC-SA-4.0.txt", "THIRD-PARTY-NOTICES.txt", "css", "js", "locales", "assets", "app-preview"];   // absolute paths (used by 404.html) map to the repo root
 const errors = [];
 const read = (rel) => fs.readFileSync(path.join(ROOT, rel), "utf8");
 const exists = (rel) => fs.existsSync(path.join(ROOT, rel));
@@ -115,3 +115,4 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(`✔ site checks passed (${PAGES.length} pages)`);
+// Updated by: OpenAI-Codex
