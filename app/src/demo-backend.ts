@@ -12,7 +12,7 @@ const LINKS: Record<Link, string> = {
   github: "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing",
   releases: "https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases",
   discord: "https://discord.gg/aaUQVJeCgC",
-  website: "https://spacesquare640.github.io/Minecraft_Auto_Fishing/",
+  website: "https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/",
 };
 
 export function demoBackend(): Backend {

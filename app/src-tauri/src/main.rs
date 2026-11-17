@@ -33,7 +33,7 @@ const LINKS: [(&str, &str); 4] = [
     ("discord", "https://discord.gg/aaUQVJeCgC"),
     (
         "website",
-        "https://spacesquare640.github.io/Minecraft_Auto_Fishing/",
+        "https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/",
     ),
 ];
 
@@ -136,8 +136,13 @@ fn install_pack(app: tauri::State<'_, AppState>, edition: String) -> Result<Stri
 }
 
 fn main() {
+    // Updated by: OpenAI-Codex
+    let migration_warnings = paths::migrate_legacy_data();
     let settings = settings::load();
     let log: SharedLog = Arc::new(Mutex::new(EventLog::new(settings.save_logs)));
+    for warning in migration_warnings {
+        lock(&log).add(format!("Data migration warning: {warning}"));
+    }
     lock(&log).add(format!(
         "Minecraft Auto Fishing {} started",
         env!("CARGO_PKG_VERSION")

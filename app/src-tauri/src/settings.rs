@@ -41,14 +41,9 @@ fn old_file() -> Option<PathBuf> {
 }
 
 /// First start after the update: copy the settings an older version saved. The old file stays.
+// Updated by: OpenAI-Codex
 fn carry_over(old: &Path, new: &Path) {
-    if new.exists() || !old.exists() {
-        return;
-    }
-    if let Some(dir) = new.parent() {
-        let _ = fs::create_dir_all(dir);
-    }
-    let _ = fs::copy(old, new);
+    let _ = paths::copy_file_if_missing(old, new);
 }
 
 /// Saved settings, or the defaults when there are none (or they cannot be read).

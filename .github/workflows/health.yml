@@ -34,5 +34,7 @@ jobs:
 
       - name: Health check
         env:
-          SITE_URL: https://spacesquare640.github.io/Minecraft_Auto_Fishing/
+          SITE_URL: https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/
         run: node scripts/smoke-test.js health
+
+# Updated by: OpenAI-Codex_Website

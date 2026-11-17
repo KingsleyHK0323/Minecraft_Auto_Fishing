@@ -4,6 +4,11 @@ All notable changes to the Minecraft Auto Fishing tool are documented here.
 
 ## Unreleased
 
+## 1.0.2 — 2026-11-17 (Windows)
+
+- The Windows installer upgrade from 1.0.1 has not been verified; the identifier migration has not been tested through an installed upgrade.
+- Updated the Bedrock resource pack author display name to Kingsley, migrated the application identifier to KingsleyHK0323 with a one-time, non-destructive copy of existing settings and log files, and updated the funding links to Kingsley's accounts.
+- Updated active website links to the current GitHub Pages address.
 - Updated release status and clarified that the in-game test result for menu detection is unconfirmed.
 - Updated the app's release update check to use the KingsleyHK0323 repository.
 - Licensed project-owned code and resource packs under PolyForm Noncommercial 1.0.0; third-party components retain their respective licenses. Copyright Kingsley.
