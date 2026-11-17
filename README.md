@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://spacesquare640.github.io/Minecraft_Auto_Fishing/">
-    <img src="https://spacesquare640.github.io/Minecraft_Auto_Fishing/assets/img/icon.webp" width="160" alt="Minecraft Auto Fishing icon">
+  <a href="https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/">
+    <img src="https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/assets/img/icon.webp" width="160" alt="Minecraft Auto Fishing icon">
   </a>
 </p>
 
@@ -12,7 +12,7 @@
 </p>
 
 <h3 align="center">
-  👉 <a href="https://spacesquare640.github.io/Minecraft_Auto_Fishing/">Visit the website</a> — interactive demo, docs and changelog
+  👉 <a href="https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/">Visit the website</a> — interactive demo, docs and changelog
 </h3>
 
 ---
@@ -21,9 +21,9 @@
 
 | | |
 |---|---|
-| 🌐 Website | https://spacesquare640.github.io/Minecraft_Auto_Fishing/ |
-| 📖 Docs | [Website](https://spacesquare640.github.io/Minecraft_Auto_Fishing/docs.html) · [Source](docs/overview.md) |
-| 📝 Changelog | [Website](https://spacesquare640.github.io/Minecraft_Auto_Fishing/changelog.html) · [Source](Change%20Log.md) |
+| 🌐 Website | https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/ |
+| 📖 Docs | [Website](https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/docs.html) · [Source](docs/overview.md) |
+| 📝 Changelog | [Website](https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/changelog.html) · [Source](Change%20Log.md) |
 
 ## License
 
