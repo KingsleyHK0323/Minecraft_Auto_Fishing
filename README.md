@@ -59,6 +59,7 @@ locales/
 tests/
   markdown.test.js  Renderer and XSS tests (node --test)
   demo-engine.test.js  Demo rules with a fake clock
+  site-url.test.js     Deploy target validation, without network requests
 scripts/
   check-site.js     i18n keys, file references, anchors, CSP compliance
   build.js          Builds _site/ for Pages: prerenders English text, content-hashes CSS/JS file names

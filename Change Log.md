@@ -175,3 +175,11 @@ All notable changes to the website branch are recorded here.
 - Updated the app preview script reference to a new content-derived filename to prevent stale browser caches.
 
 <!-- Updated by: OpenAI-Codex_Website -->
+
+## Unreleased (Pages address)
+
+- Updated the website URL used by deployment checks, cache carry-over, and metadata to match the current GitHub Pages deployment.
+- Updated Markdown link safety tests to use the current GitHub Pages host.
+- Rebuilt the App Preview from the updated app frontend; previous hashed bundles remain stored but are no longer referenced by the preview entry point.
+
+<!-- Updated by: OpenAI-Codex_Website -->

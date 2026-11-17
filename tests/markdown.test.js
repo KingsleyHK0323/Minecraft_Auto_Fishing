@@ -88,11 +88,12 @@ test("security review: emphasis never lands inside an href", () => {
 });
 
 test("security review: same-site check compares the exact origin", () => {
-  const opts = { siteOrigin: "https://spacesquare640.github.io" };
-  for (const u of ["https://spacesquare640.github.io.evil.com/", "https://spacesquare640.github.io@evil.com/"]) {
+  // Updated by: OpenAI-Codex_Website
+  const opts = { siteOrigin: "https://kingsleyhk0323.github.io" };
+  for (const u of ["https://kingsleyhk0323.github.io.evil.com/", "https://kingsleyhk0323.github.io@evil.com/"]) {
     assert.match(render(`[a](${u})`, opts), /target="_blank" rel="noopener noreferrer"/, u);
   }
-  assert.doesNotMatch(render("[a](https://spacesquare640.github.io/x)", opts), /target=/);
+  assert.doesNotMatch(render("[a](https://kingsleyhk0323.github.io/x)", opts), /target=/);
 });
 
 test("security review: deep blockquote nesting fails safely instead of hanging", () => {

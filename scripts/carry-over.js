@@ -10,7 +10,7 @@ const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 
-const SITE = "https://spacesquare640.github.io/Minecraft_Auto_Fishing/";
+const SITE = "https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/";
 const OUT = path.resolve(__dirname, "..", "_site");
 const PAGES = ["", "docs.html", "changelog.html", "404.html"];
 // Only content-hashed asset paths: css/*.css, js/*.js, locales/*.js. No traversal, nothing else.
@@ -60,3 +60,5 @@ async function readCapped(res) {
   }
   console.log(`✔ carry-over: ${wanted.size} live hashed files referenced, ${copied} copied from the previous deploy`);
 })();
+
+// Updated by: OpenAI-Codex_Website

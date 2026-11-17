@@ -11,7 +11,7 @@
 
 const MODE = process.argv[2];
 const SITE = process.env.SITE_URL || "";
-const EXPECTED_SITE = "https://spacesquare640.github.io/Minecraft_Auto_Fishing/";
+const EXPECTED_SITE = "https://kingsleyhk0323.github.io/Minecraft_Auto_Fishing/";
 const EXPECTED = (process.env.EXPECTED_VERSION || "").slice(0, 7);
 const PAGES = ["", "docs.html", "changelog.html"];
 const PRIVATE = ["tests/markdown.test.js", "scripts/build.js", "scripts/smoke-test.js", "scripts/carry-over.js", ".github/workflows/pages.yml", "README.md", "Change%20Log.md"];
