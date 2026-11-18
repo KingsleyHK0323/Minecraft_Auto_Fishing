@@ -3,7 +3,7 @@ resolver = "3"
 members = ["crates/engine", "crates/detectors", "crates/game-profile", "crates/platform-win", "app/src-tauri"]
 
 [workspace.package]
-version = "1.0.2"
+version = "1.0.3"
 edition = "2024"
 rust-version = "1.98"
 license = "PolyForm-Noncommercial-1.0.0"
@@ -13,3 +13,5 @@ publish = false
 codegen-units = 1
 lto = true
 strip = true
+
+# Updated by: OpenAI-Codex

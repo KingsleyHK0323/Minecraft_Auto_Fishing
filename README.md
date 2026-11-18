@@ -17,7 +17,7 @@
 
 ---
 
-**Status:** Version 1.0.1 for Windows was released on 2026-10-17; see [GitHub Releases](https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases/latest). macOS and Linux are not supported yet.
+**Status:** Version 1.0.3 for Windows; see [GitHub Releases](https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing/releases/latest). macOS and Linux are not supported yet.
 
 | | |
 |---|---|

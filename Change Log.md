@@ -4,6 +4,11 @@ All notable changes to the Minecraft Auto Fishing tool are documented here.
 
 ## Unreleased
 
+## 1.0.3 — 2026-11-18 (Windows)
+
+- Set the Windows installer publisher to Kingsley.
+- Upgrading from 1.0.2 has not been verified. The NSIS publisher change also changes the auxiliary install-location registry key from `HKCU\Software\github\Minecraft Auto Fishing` to `HKCU\Software\Kingsley\Minecraft Auto Fishing`, so a custom install path may not be restored automatically. Check the destination before continuing. If uninstalling 1.0.2 first, leave **Delete application data** unchecked to preserve settings and logs. MSI in-place upgrade has not been verified either.
+
 ## 1.0.2 — 2026-11-17 (Windows)
 
 - The Windows installer upgrade from 1.0.1 has not been verified; the identifier migration has not been tested through an installed upgrade.
